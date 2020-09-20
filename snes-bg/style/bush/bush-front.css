@@ -1,0 +1,305 @@
+.front-bush-back {
+  /* ----- vertiacl position
+    ------------------------------------------------*/
+  /* ----- width
+    ------------------------------------------------*/
+  /* ----- height
+    ------------------------------------------------*/
+  /* ----- horzontal position
+    ------------------------------------------------*/
+}
+
+.front-bush-back .bush-1,
+.front-bush-back .bush-2,
+.front-bush-back .bush-3,
+.front-bush-back .bush-4,
+.front-bush-back .bush-5,
+.front-bush-back .bush-6,
+.front-bush-back .bush-7,
+.front-bush-back .bush-8,
+.front-bush-back .bush-9,
+.front-bush-back .bush-10,
+.front-bush-back .bush-11,
+.front-bush-back .bush-12,
+.front-bush-back .bush-13,
+.front-bush-back .bush-14,
+.front-bush-back .bush-15 {
+  position: absolute;
+  background: #36632E;
+  border-radius: 50% 50% 0 0;
+  z-index: 9;
+}
+
+.front-bush-back .bush-3,
+.front-bush-back .bush-5,
+.front-bush-back .bush-6,
+.front-bush-back .bush-7,
+.front-bush-back .bush-9,
+.front-bush-back .bush-10,
+.front-bush-back .bush-12,
+.front-bush-back .bush-13,
+.front-bush-back .bush-14,
+.front-bush-back .bush-15 {
+  top: 70%;
+}
+
+.front-bush-back .bush-1,
+.front-bush-back .bush-2,
+.front-bush-back .bush-4,
+.front-bush-back .bush-8,
+.front-bush-back .bush-11 {
+  top: 75%;
+}
+
+.front-bush-back .bush-1,
+.front-bush-back .bush-2 {
+  width: 10rem;
+}
+
+.front-bush-back .bush-3,
+.front-bush-back .bush-4,
+.front-bush-back .bush-5,
+.front-bush-back .bush-6,
+.front-bush-back .bush-7,
+.front-bush-back .bush-8,
+.front-bush-back .bush-9,
+.front-bush-back .bush-10,
+.front-bush-back .bush-11,
+.front-bush-back .bush-12,
+.front-bush-back .bush-14,
+.front-bush-back .bush-15 {
+  width: 15rem;
+}
+
+.front-bush-back .bush-13 {
+  width: 20rem;
+}
+
+.front-bush-back .bush-1 {
+  height: 10rem;
+}
+
+.front-bush-back .bush-2,
+.front-bush-back .bush-4,
+.front-bush-back .bush-8,
+.front-bush-back .bush-11 {
+  height: 15rem;
+}
+
+.front-bush-back .bush-3,
+.front-bush-back .bush-5,
+.front-bush-back .bush-6,
+.front-bush-back .bush-7,
+.front-bush-back .bush-9,
+.front-bush-back .bush-10,
+.front-bush-back .bush-12,
+.front-bush-back .bush-13,
+.front-bush-back .bush-14,
+.front-bush-back .bush-15 {
+  height: 20rem;
+}
+
+.front-bush-back .bush-1 {
+  left: calc(50% - 70rem);
+}
+
+.front-bush-back .bush-2 {
+  left: calc(50% - 62rem);
+}
+
+.front-bush-back .bush-3 {
+  left: calc(50% - 55rem);
+}
+
+.front-bush-back .bush-4 {
+  left: calc(50% - 45rem);
+}
+
+.front-bush-back .bush-5 {
+  left: calc(50% - 35rem);
+}
+
+.front-bush-back .bush-6 {
+  left: calc(50% - 30rem);
+}
+
+.front-bush-back .bush-7 {
+  left: 52rem;
+  left: calc(50% - 18rem);
+}
+
+.front-bush-back .bush-8 {
+  left: calc(50% - 12rem);
+}
+
+.front-bush-back .bush-9 {
+  left: calc(50% - 2rem);
+}
+
+.front-bush-back .bush-10 {
+  left: calc(50% + 5rem);
+}
+
+.front-bush-back .bush-11 {
+  left: calc(50% + 15rem);
+}
+
+.front-bush-back .bush-12 {
+  left: calc(50% + 25rem);
+}
+
+.front-bush-back .bush-13 {
+  left: calc(50% + 35rem);
+}
+
+.front-bush-back .bush-14 {
+  left: calc(50% + 45rem);
+}
+
+.front-bush-back .bush-15 {
+  right: calc(50% - 70rem);
+  border-radius: 50% 40% 0 50%;
+}
+
+.front-bush-front {
+  /* ----- width
+    ------------------------------------------------*/
+  /* ----- vertiacl position
+    ------------------------------------------------*/
+  /* ----- horizontal position
+    ------------------------------------------------*/
+}
+
+.front-bush-front .bush-1,
+.front-bush-front .bush-2,
+.front-bush-front .bush-3,
+.front-bush-front .bush-4,
+.front-bush-front .bush-5,
+.front-bush-front .bush-6,
+.front-bush-front .bush-7,
+.front-bush-front .bush-8,
+.front-bush-front .bush-9,
+.front-bush-front .bush-10,
+.front-bush-front .bush-11,
+.front-bush-front .bush-12,
+.front-bush-front .bush-13,
+.front-bush-front .bush-14,
+.front-bush-front .bush-15 {
+  position: absolute;
+  height: 15rem;
+  background: #477E3A;
+  border-radius: 50% 50% 0 0;
+  z-index: 9;
+}
+
+.front-bush-front .bush-1,
+.front-bush-front .bush-2 {
+  width: 10rem;
+}
+
+.front-bush-front .bush-3,
+.front-bush-front .bush-7,
+.front-bush-front .bush-9,
+.front-bush-front .bush-12 {
+  width: 13rem;
+}
+
+.front-bush-front .bush-13 {
+  width: 20rem;
+}
+
+.front-bush-front .bush-6,
+.front-bush-front .bush-10,
+.front-bush-front .bush-15 {
+  width: 14rem;
+}
+
+.front-bush-front .bush-4,
+.front-bush-front .bush-5,
+.front-bush-front .bush-8,
+.front-bush-front .bush-11,
+.front-bush-front .bush-14 {
+  width: 15rem;
+}
+
+.front-bush-front .bush-1,
+.front-bush-front .bush-2,
+.front-bush-front .bush-4,
+.front-bush-front .bush-8,
+.front-bush-front .bush-11 {
+  top: calc(75% + 1rem);
+}
+
+.front-bush-front .bush-3,
+.front-bush-front .bush-5,
+.front-bush-front .bush-6,
+.front-bush-front .bush-7,
+.front-bush-front .bush-9,
+.front-bush-front .bush-10,
+.front-bush-front .bush-12,
+.front-bush-front .bush-13,
+.front-bush-front .bush-14,
+.front-bush-front .bush-15 {
+  top: calc(70% + 1rem);
+}
+
+.front-bush-front .bush-1 {
+  left: calc(50% - 70rem);
+}
+
+.front-bush-front .bush-2 {
+  left: calc(50% - 62rem);
+}
+
+.front-bush-front .bush-3 {
+  left: calc(50% - 54rem);
+}
+
+.front-bush-front .bush-4 {
+  left: calc(50% - 45rem);
+}
+
+.front-bush-front .bush-5 {
+  left: calc(50% - 35rem);
+}
+
+.front-bush-front .bush-6 {
+  left: calc(50% - 30rem);
+}
+
+.front-bush-front .bush-7 {
+  left: calc(50% - 17rem);
+}
+
+.front-bush-front .bush-8 {
+  left: calc(50% - 12rem);
+}
+
+.front-bush-front .bush-9 {
+  left: calc(50% - 1rem);
+}
+
+.front-bush-front .bush-10 {
+  left: calc(50% + 5rem);
+}
+
+.front-bush-front .bush-11 {
+  left: calc(50% + 15rem);
+}
+
+.front-bush-front .bush-12 {
+  left: calc(50% + 26rem);
+}
+
+.front-bush-front .bush-13 {
+  left: calc(50% + 35rem);
+}
+
+.front-bush-front .bush-14 {
+  left: calc(50% + 45rem);
+}
+
+.front-bush-front .bush-15 {
+  right: calc(50% - 70rem);
+}
+/*# sourceMappingURL=bush-front.css.map */

@@ -1,0 +1,96 @@
+/* ----------------------------- */
+.cloud .circle-1,
+.cloud .circle-2,
+.cloud .circle-3 {
+  background-color: #D9E2E9;
+  border-radius: 50%;
+  float: left;
+  position: relative;
+}
+
+.cloud .circle-1 {
+  left: 2rem;
+  width: 5rem;
+  height: 5rem;
+}
+
+.cloud .circle-2 {
+  top: -1rem;
+  width: 4rem;
+  height: 4rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  z-index: 1;
+}
+
+.cloud .circle-2 .eyes-black {
+  position: relative;
+  left: 1rem;
+  top: 2rem;
+  background-color: black;
+  width: 0.6rem;
+  height: 1.6rem;
+  border-radius: 0.3rem;
+  float: left;
+  margin: 0 0.2rem;
+}
+
+.cloud .circle-2 .eyes-black .eyes-white {
+  background-color: white;
+  margin: 0.3rem auto 0;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+}
+
+.cloud .circle-3 {
+  top: 0.5rem;
+  left: -3.5rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+#cloud-1,
+#cloud-2,
+#cloud-3,
+#cloud-4 {
+  position: absolute;
+}
+
+#cloud-1 {
+  top: 7rem;
+  left: 6rem;
+}
+
+#cloud-2 {
+  top: 4rem;
+  right: 20rem;
+}
+
+#cloud-3 {
+  top: 12rem;
+  left: 45vw;
+}
+
+#cloud-4 {
+  top: 12rem;
+  right: 3rem;
+}
+
+#cloud-1,
+#cloud-4 {
+  -webkit-transform: rotateZ(5deg);
+          transform: rotateZ(5deg);
+}
+
+#cloud-2,
+#cloud-3 {
+  -webkit-transform: rotateZ(-5deg);
+          transform: rotateZ(-5deg);
+}
+
+#cloud-3 .circle-2 .eyes-black,
+#cloud-4 .circle-2 .eyes-black {
+  display: none;
+}
+/*# sourceMappingURL=small-clouds.css.map */

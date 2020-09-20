@@ -1,0 +1,85 @@
+@import '../../variables/variables.scss';
+
+/* ----------------------------- */
+
+#big-cloud-1 {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    .big-cloud-1 {
+        background: #D9E2E9;
+        position: absolute;
+        top: 20rem;
+        left: 10rem;
+        width: 24rem;
+        height: 20rem;
+        border-radius: 50%;
+    }
+    .big-cloud-2 {
+        background: #D9E2E9;
+        position: absolute;
+        top: 25rem;
+        left: 28rem;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+    }
+    .big-cloud-3 {
+        background: #D9E2E9;
+        position: absolute;
+        top: 30rem;
+        left: 30rem;
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+    }
+    .big-cloud-4 {
+        background: #D9E2E9;
+        position: absolute;
+        top: 25rem;
+        left: 42rem;
+        width: 35rem;
+        height: 35rem;
+        border-radius: 50%;
+    }
+}
+
+#big-cloud-2 {
+    position: absolute;
+    top: 22%;
+    right: 0;
+    z-index: 1;
+    .big-cloud-1,
+    .big-cloud-2,
+    .big-cloud-3,
+    .big-cloud-4 {
+        background: #D9E2E9;
+        position: absolute;
+        border-radius: 50%;
+    }
+    .big-cloud-1,
+    .big-cloud-2 {
+        width: 10rem;
+        height: 10rem;
+    }
+    .big-cloud-1 {
+        top: 28rem;
+        right: 0rem;
+    }
+    .big-cloud-2 {
+        top: 20rem;
+        right: 5rem;
+    }
+    .big-cloud-3 {
+        top: 10rem;
+        right: 10rem;
+        width: 20rem;
+        height: 20rem;
+    }
+    .big-cloud-4 {
+        top: 5vh;
+        right: 20rem;
+        width: 15rem;
+        height: 15rem;
+    }
+}

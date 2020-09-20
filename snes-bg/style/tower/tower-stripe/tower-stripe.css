@@ -1,0 +1,53 @@
+.tower-stripe {
+  position: absolute;
+  bottom: 0;
+  border: 0.2rem solid black;
+  z-index: 1;
+}
+
+#tower-stripe-1 {
+  width: 20rem;
+  height: 81%;
+  left: 0rem;
+  bottom: 0;
+  background: repeating-linear-gradient(-30deg, #C6DC93 0rem, #C6DC93 3rem, #6C9A1D 3rem, #6C9A1D 6rem);
+  border-radius: 0 20rem 0 0;
+  z-index: 2;
+}
+
+#tower-stripe-2 {
+  width: 5rem;
+  height: 82%;
+  left: 78rem;
+  background: repeating-linear-gradient(-40deg, #C6DC93 0rem, #C6DC93 0.5rem, #6C9A1D 0.5rem, #6C9A1D 1rem);
+  border-radius: 20rem 20rem 0 0;
+  z-index: 2;
+}
+
+#tower-stripe-3 {
+  width: 12rem;
+  height: 87%;
+  left: 68rem;
+  background: repeating-linear-gradient(-40deg, #C6DC93 0rem, #C6DC93 2rem, #6C9A1D 2rem, #6C9A1D 4rem);
+  border-radius: 20rem 20rem 0 0;
+  z-index: 3;
+}
+
+#tower-stripe-4 {
+  width: 8rem;
+  height: 75%;
+  left: 66.5rem;
+  background: repeating-linear-gradient(40deg, #C6DC93 0rem, #C6DC93 1.5rem, #6C9A1D 1.5rem, #6C9A1D 3rem);
+  border-radius: 20rem 20rem 0 0;
+  z-index: 4;
+}
+
+#tower-stripe-5 {
+  width: 9rem;
+  height: 30rem;
+  left: 0rem;
+  background: repeating-linear-gradient(30deg, #C6DC93 0rem, #C6DC93 2rem, #6C9A1D 2rem, #6C9A1D 4rem);
+  border-radius: 0 15rem 0 0;
+  z-index: 5;
+}
+/*# sourceMappingURL=tower-stripe.css.map */

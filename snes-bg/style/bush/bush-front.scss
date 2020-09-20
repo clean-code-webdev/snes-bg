@@ -1,0 +1,257 @@
+.front-bush-back {
+    .bush-1,
+    .bush-2,
+    .bush-3,
+    .bush-4,
+    .bush-5,
+    .bush-6,
+    .bush-7,
+    .bush-8,
+    .bush-9,
+    .bush-10,
+    .bush-11,
+    .bush-12,
+    .bush-13,
+    .bush-14,
+    .bush-15 {
+        position: absolute;
+        background: #36632E;
+        border-radius: 50% 50% 0 0;
+        z-index: 9;
+    }
+    /* ----- vertiacl position
+    ------------------------------------------------*/
+    .bush-3,
+    .bush-5,
+    .bush-6,
+    .bush-7,
+    .bush-9,
+    .bush-10,
+    .bush-12,
+    .bush-13,
+    .bush-14,
+    .bush-15 {
+        top: 70%;
+    }
+    .bush-1,
+    .bush-2,
+    .bush-4,
+    .bush-8,
+    .bush-11 {
+        top: 75%;
+    }
+    /* ----- width
+    ------------------------------------------------*/
+    .bush-1,
+    .bush-2 {
+        width: 10rem
+    }
+    .bush-3,
+    .bush-4,
+    .bush-5,
+    .bush-6,
+    .bush-7,
+    .bush-8,
+    .bush-9,
+    .bush-10,
+    .bush-11,
+    .bush-12,
+    .bush-14,
+    .bush-15 {
+        width: 15rem
+    }
+    .bush-13 {
+        width: 20rem
+    }
+    /* ----- height
+    ------------------------------------------------*/
+    .bush-1 {
+        height: 10rem;
+    }
+    .bush-2,
+    .bush-4,
+    .bush-8,
+    .bush-11 {
+        height: 15rem
+    }
+    .bush-3,
+    .bush-5,
+    .bush-6,
+    .bush-7,
+    .bush-9,
+    .bush-10,
+    .bush-12,
+    .bush-13,
+    .bush-14,
+    .bush-15 {
+        height: 20rem
+    }
+    /* ----- horzontal position
+    ------------------------------------------------*/
+    .bush-1 {
+        left: calc(50% - 70rem);
+    }
+    .bush-2 {
+        left: calc(50% - 62rem);
+    }
+    .bush-3 {
+        left: calc(50% - 55rem);
+    }
+    .bush-4 {
+        left: calc(50% - 45rem);
+    }
+    .bush-5 {
+        left: calc(50% - 35rem);
+    }
+    .bush-6 {
+        left: calc(50% - 30rem);
+    }
+    .bush-7 {
+        left: 52rem;
+        left: calc(50% - 18rem);
+    }
+    .bush-8 {
+        left: calc(50% - 12rem);
+    }
+    .bush-9 {
+        left: calc(50% - 2rem);
+    }
+    .bush-10 {
+        left: calc(50% + 5rem);
+    }
+    .bush-11 {
+        left: calc(50% + 15rem);
+    }
+    .bush-12 {
+        left: calc(50% + 25rem);
+    }
+    .bush-13 {
+        left: calc(50% + 35rem);
+    }
+    .bush-14 {
+        left: calc(50% + 45rem);
+    }
+    .bush-15 {
+        right: calc(50% - 70rem);
+        border-radius: 50% 40% 0 50%;
+    }
+}
+
+.front-bush-front {
+    .bush-1,
+    .bush-2,
+    .bush-3,
+    .bush-4,
+    .bush-5,
+    .bush-6,
+    .bush-7,
+    .bush-8,
+    .bush-9,
+    .bush-10,
+    .bush-11,
+    .bush-12,
+    .bush-13,
+    .bush-14,
+    .bush-15 {
+        position: absolute;
+        height: 15rem;
+        background: #477E3A;
+        border-radius: 50% 50% 0 0;
+        z-index: 9;
+    }
+    /* ----- width
+    ------------------------------------------------*/
+    .bush-1,
+    .bush-2 {
+        width: 10rem;
+    }
+    .bush-3,
+    .bush-7,
+    .bush-9,
+    .bush-12 {
+        width: 13rem;
+    }
+    .bush-13 {
+        width: 20rem;
+    }
+    .bush-6,
+    .bush-10,
+    .bush-15 {
+        width: 14rem;
+    }
+    .bush-4,
+    .bush-5,
+    .bush-8,
+    .bush-11,
+    .bush-14 {
+        width: 15rem;
+    }
+    /* ----- vertiacl position
+    ------------------------------------------------*/
+    .bush-1,
+    .bush-2,
+    .bush-4,
+    .bush-8,
+    .bush-11 {
+        top: calc(75% + 1rem);
+    }
+    .bush-3,
+    .bush-5,
+    .bush-6,
+    .bush-7,
+    .bush-9,
+    .bush-10,
+    .bush-12,
+    .bush-13,
+    .bush-14,
+    .bush-15 {
+        top: calc(70% + 1rem);
+    }
+    /* ----- horizontal position
+    ------------------------------------------------*/
+    .bush-1 {
+        left: calc(50% - 70rem);
+    }
+    .bush-2 {
+        left: calc(50% - 62rem);
+    }
+    .bush-3 {
+        left: calc(50% - 54rem);
+    }
+    .bush-4 {
+        left: calc(50% - 45rem);
+    }
+    .bush-5 {
+        left: calc(50% - 35rem);
+    }
+    .bush-6 {
+        left: calc(50% - 30rem);
+    }
+    .bush-7 {
+        left: calc(50% - 17rem);
+    }
+    .bush-8 {
+        left: calc(50% - 12rem);
+    }
+    .bush-9 {
+        left: calc(50% - 1rem);
+    }
+    .bush-10 {
+        left: calc(50% + 5rem);
+    }
+    .bush-11 {
+        left: calc(50% + 15rem);
+    }
+    .bush-12 {
+        left: calc(50% + 26rem);
+    }
+    .bush-13 {
+        left: calc(50% + 35rem);
+    }
+    .bush-14 {
+        left: calc(50% + 45rem);
+    }
+    .bush-15 {
+        right: calc(50% - 70rem);
+    }
+}

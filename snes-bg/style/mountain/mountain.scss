@@ -1,0 +1,167 @@
+#mountain-1 {
+    position: absolute;
+    bottom: 0;
+    z-index: 6;
+    .side-1,
+    .side-2,
+    .side-3 {
+        background-color: #478836;
+        position: absolute;
+    }
+    .side-1 {
+        height: 75rem;
+        width: 10rem;
+        bottom: -4rem;
+        left: 64.5rem;
+        transform: rotateZ(45deg);
+        border-radius: 5rem 0 0 0;
+    }
+    .side-2 {
+        height: 65rem;
+        width: 10rem;
+        bottom: 4rem;
+        left: 107.5rem;
+        transform: rotateZ(-45deg);
+        border-radius: 0 5rem 0 0;
+    }
+    .side-3 {
+        clip-path: polygon(58% 0, 100% 82%, 100% 100%, 0 100%, 47% 0);
+        height: 50rem;
+        width: 95rem;
+        left: 40rem;
+        bottom: 0;
+    }
+}
+
+#mountain-2 {
+    position: absolute;
+    bottom: 0;
+    z-index: 7;
+    .side-1,
+    .side-2,
+    .side-3 {
+        position: absolute;
+        background: #B3C94A;
+    }
+    .side-1 {
+        left: 65rem;
+    }
+    .side-2 {
+        left: 83.5rem;
+    }
+    .side-3 {
+        left: 60rem;
+    }
+}
+
+#mountain-3 {
+    position: absolute;
+    bottom: 0;
+    z-index: 8;
+    .side-1,
+    .side-2,
+    .side-3 {
+        position: absolute;
+        background: #26581B;
+    }
+    .side-1 {
+        left: 42rem;
+    }
+    .side-2 {
+        left: 60.5rem;
+    }
+    .side-3 {
+        left: 30rem;
+    }
+}
+
+#mountain-2,
+#mountain-3 {
+    .side-1 {
+        height: 35rem;
+        width: 10rem;
+        bottom: 9rem;
+        transform: rotateZ(45deg);
+        border-radius: 5rem 0 0 0;
+    }
+    .side-2 {
+        height: 35rem;
+        width: 10rem;
+        bottom: 9rem;
+        transform: rotateZ(-45deg);
+        border-radius: 0 5rem 0 0;
+    }
+    .side-3 {
+        clip-path: polygon(58% 0, 100% 82%, 100% 100%, 0 100%, 47% 0);
+        height: 35rem;
+        width: 45rem;
+        bottom: 0;
+    }
+}
+
+
+/* ----- diamonds
+---------------------------------------------------- */
+
+.diamond {
+    clip-path: polygon(50% 0%, 80% 50%, 50% 100%, 20% 50%);
+    background-color: #88BB76;
+    z-index: 1000;
+    position: absolute;
+}
+
+.diamond-1 {
+    right: 47rem;
+    top: 20rem;
+    width: 3rem;
+    height: 4rem;
+}
+
+.diamond-2 {
+    right: 45rem;
+    top: 30rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.diamond-3 {
+    right: 40rem;
+    top: 17rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.diamond-4 {
+    right: 55rem;
+    top: 18rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.diamond-5 {
+    right: 58rem;
+    top: 25rem;
+    width: 2rem;
+    height: 3rem;
+}
+
+.diamond-6 {
+    right: 50rem;
+    top: 13rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.diamond-7 {
+    right: 17rem;
+    top: 43rem;
+    width: 2rem;
+    height: 3rem;
+}
+
+.diamond-8 {
+    right: 38rem;
+    top: 25rem;
+    width: 2rem;
+    height: 2rem;
+}

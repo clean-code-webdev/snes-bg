@@ -1,0 +1,43 @@
+@import '../variables/variables.scss';
+@import '../mountain/mountain.scss';
+@import '../cloud/small-clouds/small-clouds.scss';
+@import '../cloud/big-clouds/big-clouds.scss';
+@import '../tower/tower-stripe/tower-stripe.scss';
+@import '../tower/tower-dash/tower-dash.scss';
+@import '../bush/bush-front.scss';
+@import '../ground/ground.scss';
+
+/* -----
+------------------------------------*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: $font-size;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#wrapper {
+    align-self: center;
+    width: 140rem;
+    height: 70rem;
+    position: relative;
+    background: $sky-colour;
+    // background-image: url('../../img/snes-bg.jpg');
+    background-size: cover;
+    margin: calc(50wv - 75rem);
+}
+
+
+/*--------------------*/

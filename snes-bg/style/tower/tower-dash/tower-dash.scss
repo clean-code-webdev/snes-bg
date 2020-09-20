@@ -1,0 +1,47 @@
+.tower-dash {
+    border: 0.2rem solid rgb(14, 150, 9);
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(45deg, white, green);
+}
+
+#tower-dash-1 {
+    width: 18rem;
+    height: 50%;
+    left: 19rem;
+    border-radius: 10rem 10rem 0 0;
+    z-index: 10;
+}
+
+#tower-dash-2 {
+    width: 13rem;
+    height: 29vh;
+    left: 33rem;
+    border-radius: 10rem 10rem 0 0;
+    z-index: 10;
+}
+
+#tower-dash-3 {
+    width: 8rem;
+    height: 17vh;
+    left: 27rem;
+    border-radius: 10rem 10rem 0 0;
+    z-index: 11;
+}
+
+#tower-dash-4 {
+    width: 9rem;
+    height: 50vh;
+    right: 35rem;
+    border-radius: 10rem 10rem 0 0;
+    z-index: 9;
+}
+
+#tower-dash-5 {
+    width: 15rem;
+    height: 60vh;
+    right: 25rem;
+    border-radius: 10rem 10rem 0 0;
+    z-index: 8;
+    background: linear-gradient(#C8E123, #519113);
+}

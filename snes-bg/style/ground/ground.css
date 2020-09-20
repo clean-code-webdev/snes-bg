@@ -1,0 +1,11 @@
+#ground {
+  width: 100%;
+  height: 5rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(lightgreen), to(brown));
+  background: linear-gradient(lightgreen, brown);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2000;
+}
+/*# sourceMappingURL=ground.css.map */
