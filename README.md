@@ -11,4 +11,4 @@ SCSS and JavaScript
 Ricardo Martinez
 
 ## Stage
-Ready
+Mobile and tablet view yet to be done
